@@ -1,4 +1,4 @@
-# 0. Introduction to UI5 Development with Joule AI
+# Introduction to UI5 Development with Joule AI
 
 Welcome to this hands-on workshop! We're excited to guide you through building modern SAP UI5 and CAP applications using the power of SAP's Joule AI.
 

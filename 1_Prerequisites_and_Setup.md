@@ -4,7 +4,7 @@ Before we dive into development, let's ensure your environment is ready.
 
 ---
 
-## 1.1 Check Prerequisites
+## Check Prerequisites
 
 To fully participate in this workshop, a basic understanding of the following is beneficial:
 
@@ -14,7 +14,7 @@ To fully participate in this workshop, a basic understanding of the following is
 
 ---
 
-## 1.2 Log In to SAP BTP
+## Log In to SAP BTP
 
 You'll need access to an SAP BTP (Business Technology Platform) subaccount where SAP Build Code is enabled.
 
