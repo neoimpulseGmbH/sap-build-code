@@ -34,14 +34,10 @@ Here’s what Joule *can* do for you:
 And here’s what it *still* can’t do (yet):
 
 - **💬 Chat:** Joule doesn’t talk.  
-  You can’t talk to Joule.  
+  You can’t talk to Joule. It is like always a one shot prompt.  
   (But we can dream.)
+- **Freestyle:** During multiple projects and I am sure within that workshop we have seen wild things happen when trying to use it for freestyle apps. That does not seem like a product worth or even for free as a usable enhancer. 
 
----
-
-
-
-We encourage you to explore Joule's capabilities further in your own projects. The more you interact with it and provide clear, precise prompts, the more valuable it becomes.
 
 ---
 
