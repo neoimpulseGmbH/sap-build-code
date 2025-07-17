@@ -1,47 +1,45 @@
 # 5. Freestyle App Development with Joule
 
-Joule AI isn't just for generated projects; it can also be a powerful assistant when developing custom (Freestyle) UI5 applications from scratch or within existing projects.
+Joule claims it can even help us build *freestyle* apps.  
+So… let’s find out.
+
+Now we’re venturing into uncharted territory — best experienced first-hand.  
+We’ll do our best to keep you (and your app) alive during the ride, but hey… no promises.
 
 ---
 
-## Selecting an Existing Project
+## 🚀 Create a New UI App
 
-For this section, we'll work with an example of an existing UI5 project.
+In this part, we’ll create a new Page XML file just to mess around a bit.  
+But first — we need a fresh app to play with:
 
-1.  If you have a pre-existing Freestyle UI5 project or a basic UI5 application without extensive backend integration, open it in SAP Business Application Studio.
-2.  **Example:** For this workshop, we might have provided a simple `FreestyleUI5App` example project. Open this project.
+1. Run the command `/add-ui` and reference `#app/service.cds` using this prompt:  
+   **_Add a UI freestyle page that lists all leads in a table._**
 
----
-
-## Add a "Create" Button
-
-Let's use Joule to add a new button to our Freestyle UI5 application.
-
-1.  Open the `View.xml` file (or the relevant view XML) where you want to add the button.
-2.  In the Joule AI chat or context menu, prompt it to add a button.
-    * **Example:** "In this view, add a new `sap.m.Button` with the text 'Create' and an icon `sap-icon://add`."
-3.  Joule will generate the XML snippet for the button. Review and insert it into your `View.xml` file.
+2. Check what Joule whipped up for you. You should see a shiny new app folder.  
+   Got a Page XML in there? Great!  
+   No? Alright, time for plan B — we’ll try a different command.
 
 ---
 
-## Generate Logic for the "Create" Button
+## 🎉 Conclusion & Next Steps
 
-Now, let's have Joule generate the corresponding event handler logic for our new button.
+Congratulations — you made it through the wilderness!  
+Here’s what Joule *can* do for you:
 
-1.  Open the `Controller.js` (or `Controller.ts`) file associated with your view.
-2.  In the Joule AI chat, prompt it to generate the logic for the button's press event.
-    * **Example:** "Generate an event handler function for the 'Create' button's `press` event. This function should navigate to a 'Create Lead' view (assume a route named 'createLead' exists) or open a dialog for new entry creation."
-3.  Joule will provide the JavaScript (or TypeScript) code for the event handler. Review and integrate it into your controller. You might need to adjust the navigation part based on your app's routing.
+- **🚀 Accelerate Project Setup:** Instantly scaffold new apps from natural language prompts.  
+- **🛠️ Streamline Enhancements:** Add features and logic to existing applications.  
+- **🎨 Support Freestyle Development:** Help build UI components and handle interactions.
+
+And here’s what it *still* can’t do (yet):
+
+- **💬 Chat:** Joule doesn’t talk.  
+  You can’t talk to Joule.  
+  (But we can dream.)
 
 ---
 
-## Conclusion & Next Steps
 
-Congratulations! You've successfully navigated through key aspects of UI5 and CAP development, harnessing the power of SAP Joule AI. You've seen how Joule can:
-
-* **Accelerate Project Setup:** Rapidly scaffold applications from natural language.
-* **Streamline Enhancements:** Add features and logic to existing apps.
-* **Assist Freestyle Development:** Help with UI component creation and event handling.
 
 We encourage you to explore Joule's capabilities further in your own projects. The more you interact with it and provide clear, precise prompts, the more valuable it becomes.
 

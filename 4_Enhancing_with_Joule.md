@@ -1,42 +1,45 @@
 # 4. Enhancing the Created App with Joule
 
-Now that Joule has generated a foundational application, let's use its capabilities to modify and add new features.
+Now that Joule has generated a foundational application, let's use its capabilities to modify and add new column.
 
 ---
 
 ## Accessing Joule for Code Modifications
 
-Within SAP Business Application Studio, Joule AI can be invoked directly from the editor or a dedicated pane. And we are going to try and modifie the current element App by adding a new UI5 Page that contains the activities. 
+Within SAP Business Application Studio, Joule AI can be invoked directly from the editor or a dedicated pane. And we are going to try and modify the current element App by adding a new column. 
 
 ---
 
-##  Add New UI5 Freestyle Page
+## Add new column
 
-Let's enhance the user interface by adding a Freestyle page with a detail view of activities per lead. 
+We are missing an extra field such "First contact place". That should represent where we got that lead from. Since we are not in a real Chat with joule we need to do two things give it a command that is fixed by / and context which is either referenced by # or to the opened file.
 
-1. Generate CAP Data Model for Activities or add manually
+1. Edit the data model via command `/cap-edit-model`, reference the files by `#db/schema.cds` and using a prompt like:
 
-2. Select command `/
+    *Add a property named firstContact to the Leads entity which is the description where the lead contact came from*
 
+2. Edit test data via command `/cap-edit-data`, reference the files to edit `test/data/XY.csv` and enter a prompt
 
----
+    *Add the new values for the column firstContact*
 
-## Modify Test Data & Add Business Logic
+3. Adapt UI via command `
 
-Joule can also help us implement business logic and modify mock data for testing.
+---  
 
-* **Modify Test Data:**
-    * Prompt Joule: "Modify the existing test data to include sample values for 'Activities'.
+## Take away
 
-* **Add Conditional Priority Logic:**
-    * Let's add a rule: If the 'Expected Closure Date' for a lead is within the next 30 days, set its 'Priority' to 'High'.
-    * Prompt Joule: "Implement logic so that when the 'Expected Closure Date' for a lead is added or updated, if it falls within the next 30 days from today, automatically set the 'Priority' of that lead to 'High'."
-    * Joule will likely suggest changes to your CAP service logic or UI5 controller. Review and apply.
+It's still **Fiori Elements**, but tweaking your app now takes a few extra steps.  
+Things start to get tricky when you want to add custom logic.  
+
+And if you're making changes with **Joule** — watch out! It's a bit fragile.  
+Without a proper `/command` or the right `#context`, Joule tends to lose its way.  
+It doesn’t always see the full picture of your project, so if your instructions aren’t crystal clear, it might just go off the rails.
+
 
 ---
 
 ## Next Step
 
-You've successfully used Joule to refine and add logic to a generated application. Next, we'll see how Joule can assist in developing custom Freestyle UI5 applications from existing projects.
+You've successfully (or not) used Joule to refine and add logic to a generated application. Next, we'll see how Joule can assist in developing custom Freestyle UI5 applications from existing projects.
 
 [Go to 5. Freestyle App Development with Joule >>](5_Freestyle_App_Development_with_Joule.md)

@@ -7,15 +7,19 @@ Now that you're in SAP Business Application Studio, let's create a new full-stac
 ## Create a New Project
 
 1. Click **Create** button and choose **create**
+
 ![alt text](image.png)
 
 2. Choose **Application** and **Next**
+
 ![alt text](image-1.png)
 
 3. Select **Full-Stack** and **Next**
+
 ![alt text](image-2.png)
 
 4. Use Full-Stack **Node.JS** for our example
+
 ![alt text](image-3.png)
 
 5. Enter Project Details
@@ -31,11 +35,14 @@ Info: Creating a project might take a while, it can take up to 1 minute.
 
 ---
 
-## Inspect project
+## 🔍 Inspect Your Project
 
-When you view the project details again you will see that you are able to version it and add members to your project in order to collaborate. We do not need to change anything for now. 
+Now that you’re checking out your project details again, you’ll notice you can **create versions** and **add team members** to collaborate. 🚀
 
-Please recognise the state of the **Dev Space** after your creation it should be **Running**.  It needs to be **Running** in oder to access it via BAS.
+No need to tweak anything just yet — we’re good for now.
+
+Just take a moment to **check the status** of your **Dev Space**. Right after creation, it should be set to **Running** 🟢.  
+Why? Because it needs to be running to jump into action via **BAS** (Business Application Studio). 
 
 ![alt text](image-5.png)
 
@@ -54,5 +61,7 @@ As we are not going to keep your project, we are not connecting to any remote-/r
 With your project structure ready, we'll now see how Joule AI can supercharge our initial application development using the Project Accelerator. 
 
 **Click on your project name to start BAS**
+
+![alt text](image-13.png)
 
 [Go to 3. Joule & Project Accelerator >>](3_Joule_and_Project_Accelerator.md)
