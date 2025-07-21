@@ -22,7 +22,7 @@ We are missing an extra field such "First contact place". That should represent 
 
     *Add the new values for the column firstContact*
 
-3. Adapt UI via command `
+3. Adapt UI via command `/ui5` and enter a prompt (if command does not show, select annotation.cds as context)
 
 ---  
 
